@@ -19,5 +19,11 @@ public class Rectangle extends GeometricFigure{
     double perimeter(){
         return (sideA + sideB) * 2;
     }
+
+    @Override
+    void info(){
+        System.out.println("Rectangle Area: " + this.area());
+        System.out.println("Rectangle Perimeter: " + this.perimeter());
+    }
     
 }

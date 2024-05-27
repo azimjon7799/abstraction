@@ -20,5 +20,11 @@ public class Trapezium extends GeometricFigure{
     double perimeter(){
         return sideA + sideB;
     }
+
+    @Override
+    void info(){
+        System.out.println("Trapezium Area: " + this.area());
+        System.out.println("Trapezium Perimeter: " + this.perimeter());
+    }
     
 }

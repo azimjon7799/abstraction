@@ -22,4 +22,10 @@ public class Triangle extends GeometricFigure{
     double perimeter(){
         return sideA + sideB + sideC;
     }
+
+    @Override
+    void info(){
+        System.out.println("Triangle Area: " + this.area());
+        System.out.println("Triangle Perimeter: " + this.perimeter());
+    }
 }
